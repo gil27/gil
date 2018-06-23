@@ -1,39 +1,139 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html>
 <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+ 
   <title></title>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" type="text/css" href="stylish.css">
 
   <style type="text/css">
+    body { font-size: 16px }
     .header {
       display: table;
       position: relative;
       width: 100%;
-      height: 100%;
-      background: url('bg.jpg') no-repeat center center scroll;
+      height: 300px;
+      background: url('header.jpeg') no-repeat center center scroll;
       -webkit-background-size: cover;
       -moz-background-size: cover;
       background-size: cover;
       -o-background-size: cover;
     }
+
+    .head {
+      width: 200px;
+      height: 200px;
+      margin-top: -110px;
+      position: absolute;
+    }
+
+    .box {
+      border: 3px solid white;
+      height: 180px;
+      width: 180px;
+    }
+
+    h1 {
+      font-size: 55px;
+      font-weight: 900;
+      color: #152c53;
+      text-transform: uppercase;
+      max-width: 480px;
+    }
+
+    h4.name {
+      text-transform: uppercase;
+    }
+
+    .name {
+      font-family: "HelveticaNeueW01-77BdCn_692722", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    .links {
+      font-size: 18px;
+      margin-top: 90px;
+      margin-bottom: 30px;
+    }
+
+
+a {
+    color: #152c53;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.margin-xs{
+  margin-top:100px;
+  margin-bottom: -67px;
+}
+
   </style>
 </head>
-<body class="header">
+
+<body class="">
+  <header class="header"></header>
+  
   <div class="container">
-    <div class="col-sm-6">
-      <header>
-        <div class="background white-shadow">
-          <h2 class="title">
-            G I L<br />
-            GOMES
-          </h2>
-        </div>
-      </header>
-      <section class="links">
-        <span><a href="about">ABOUT</a></span> / <span><a href="http://blog.gilgomes.com.br">BLOG</a></span> / <span><a href="https://br.linkedin.com/in/gilgomes
-">LINKEDIIN</a></span> / <span><a href="https://www.instagram.com/gilgomesp/">INSTAGRAM</a></span> / <span><a href="mailto:gilgomesp@gmail.com">EMAIL</a></span> / <span><a href="https://github.com/gil27">GITHUB</a></span> / <span><a href="https://www.dropbox.com/s/hue1uqfvplnks9o/resume-en-site.pdf?dl=0">Resume</a></span>
-</section>
+
+    <div class="row">
+      <div class="col-lg-2">
+        <img src="eu.jpg" class="head box" />
+      </div>
+
+      <div class="col-lg-10 hidden-xs">
+        <h1 class="name">GIL GOMES</h1>
+        <h4 class="name">Software Engineer</h4>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-10 visible-xs margin-xs">
+        <h4 class="name">GIL GOMES</h1>
+        <h4 class="name">Software Engineer</h4>
+      </div>
+    </div>
+  
+    <div class="row">
+      <div class="links col-lg-12">
+        <span><a href="https://br.linkedin.com/in/gilgomes">LINKEDIIN</a></span>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <span><a href="https://www.instagram.com/gilgomesp/">INSTAGRAM</a></span>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <span><a href="mailto:gilgomesp@gmail.com">EMAIL</a></span>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <span><a href="https://github.com/gil27">GITHUB</a></span>&nbsp;&nbsp;|&nbsp;&nbsp;
+        <span><a href="https://www.dropbox.com/s/hue1uqfvplnks9o/resume-en-site.pdf?dl=0">RESUME</a></span>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-lg-6 col-sm-12">
+        <p>Hello there, my name is Gil Gomes.</p>
+        <p>Currently I am working as a Software Engineer in Brazil.</p>
+        <p>I do like agile methodologies, goals and share/learn new things with co-workers, in fact, this pumps me up</p>
+        <p></p>
+
+        <p>I really like sports. Besides, supporting Vasco soccer team, swimming is one of the things I've been enjoying the most. The passion, effort and hustle athletes do in order to grind, just fascinates me.</p>
+
+        <p>There are a lot of things that I could tell you, like my background, languanges that I am willing to learn, but I will not tell you, at least not now.</p>
+        <p>Let's get in touch and talk</p>
+
+        <p>
+          But if you still want to know more about me, heare are a few things:
+          <ul>
+            <li>I'm a left handed guy</li>
+            <li>Comedy > Horror movies</li>
+            <li>Podcasts are cool</li>
+            <li>Vasco da Gama is the best soccer team ever!</li>
+            <li>I don't belive in ghosts</li>
+          </ul>
+        </p>
+      </div>
     </div>
   </div>
 </body>
